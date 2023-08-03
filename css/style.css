@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Caprasimo&family=PT+Serif&display=swap');
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+.form-table-design {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    background: radial-gradient(white, royalblue)
+}
+.border {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    background: linear-gradient(gray,royalblue);
+    box-shadow: 3px 3px 5px;
+}
+.form-table-design span {
+    font-size: 40px;
+}
+.form-table-design p {
+    font-size: 20px;
+}
+.answer {
+    font-family: 'PT Serif', serif;
+}
+.btn-design {
+    padding: 3px 15px;
+}
